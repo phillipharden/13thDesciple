@@ -1,0 +1,27 @@
+.animated-text {
+  font-size: 30px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.animated-text__letter {
+  animation: pulseColor 2s infinite;
+  opacity: 1;
+  color: #555;
+}
+
+@keyframes pulseColor {
+  0%   { color: #444; }
+  25%  { color: #888; }
+  50%  { color: #fff; }
+  75%  { color: #888; }
+  100% { color: #444; }
+}

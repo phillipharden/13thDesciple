@@ -1,0 +1,23 @@
+#about{
+  color: #ffffff;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.about-text {
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.about-text-container,
+.about-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

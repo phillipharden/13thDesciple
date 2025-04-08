@@ -1,0 +1,38 @@
+
+
+.headline{
+    padding: 25px 0;
+}
+
+
+
+
+/* @media (min-width: 992px) {
+  .music-box-spotify {
+    padding-right: 20px; 
+  }
+} */
+
+
+/* @media (min-width: 992px) {
+  .music-box-apple {
+    padding-left: 20px; 
+  
+  }
+} */
+
+.spotify, .apple {
+    height: 450px;
+}
+
+.music-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .music-box {
+    padding-bottom: 20px;
+  }
+}

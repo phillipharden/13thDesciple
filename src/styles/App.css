@@ -1,0 +1,309 @@
+/*^ CSS RESET */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*^ **************************************************************************/
+
+#root {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+* {
+  margin: 0 ;
+  padding: 0 ;
+
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  color: #333; /* Formerly $text-color */
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #000000, #141414);
+}
+
+main {
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+/*^ **************************************************************************/
+
+/*^ TYPOGRAPHY */
+
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:wght@300;400;500;600;700;800;900&family=Shadows+Into+Light&family=Ubuntu:wght@300;500&display=swap");
+
+/* Root Variables (replace with your actual values if needed) */
+:root {
+  --main-font: "Montserrat", sans-serif;
+  --brand-font: "Caprasimo", cursive;
+  --text-color: #000000;
+}
+
+/* Base Styles */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 1.6rem/1.4 var(--main-font);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--main-font);
+  cursor: default;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.2;
+  letter-spacing: 0.2px;
+  cursor: default;
+}
+
+.brand-font {
+  font-family: var(--brand-font);
+  font-size: 3rem;
+}
+
+/* Responsive Styles */
+
+/* Small (min-width: 480px) */
+@media (min-width: 480px) {
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+  }
+
+  .test {
+    color: blue;
+  }
+}
+
+/* Medium (min-width: 768px) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-weight: 400;
+  }
+
+  .test {
+    color: green;
+  }
+}
+
+/* Large (min-width: 992px) */
+@media (min-width: 992px) {
+  .test {
+    color: orange;
+  }
+}
+
+/* Extra Large (min-width: 1200px) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .test {
+    color: yellow;
+  }
+}
+
+/*^ **************************************************************************/
+
+section {
+  padding: 50px 0;
+}
+
+
+

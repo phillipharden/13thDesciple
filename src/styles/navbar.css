@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.navbar-container{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo img {
+  max-width: 200px;
+}
+
+.main-nav,
+.social-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.main-nav li a,
+.social-links li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.main-nav li a:hover,
+.social-links li a:hover {
+  color: #cccccc;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+/* First breakpoint (992px): hide social links */
+@media (max-width: 992px) {
+  .social-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    flex-direction: column;
+    background: #333333;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  .social-links.active {
+    display: flex;
+  }
+  .social-toggle {
+    display: block;
+  }
+}
+
+/* Second breakpoint (768px): hide main nav links */
+@media (max-width: 768px) {
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 60px;
+    flex-direction: column;
+    background: #333333;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  .main-nav.active {
+    display: flex;
+  }
+  .nav-toggle {
+    display: block;
+  }
+}
