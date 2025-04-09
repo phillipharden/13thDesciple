@@ -1,34 +1,25 @@
-
 import { Swiper, SwiperSlide } from "swiper/react";
-import { youtubeVideos } from "../data";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../styles/videocarousel.css";
-
 import { Navigation, Pagination } from "swiper/modules";
 
-const VideoCarousel = () => {
+const VideoCarousel = ({ videos }) => {
   return (
     <div className="video-carousel">
       <Swiper
-      className="swiper"
+        className="swiper"
         modules={[Navigation, Pagination]}
         spaceBetween={20}
         navigation
         pagination={{ clickable: true }}
         breakpoints={{
-          320: {
-            slidesPerView: 1,
-          },
-          640: {
-            slidesPerView: 2,
-          },
-          1024: {
-            slidesPerView: 3,
-          },
+          320: { slidesPerView: 1 },
+          640: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
         }}>
-        {youtubeVideos.map((video, index) => (
+        {videos.map((video, index) => (
           <SwiperSlide key={index}>
             <div className="video-card">
               <iframe

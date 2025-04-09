@@ -1,5 +1,4 @@
-
-export const youtubeVideos = [
+export const coVideos = [
   {
     title: "No Time Ft 1K Phew",
     url: "https://www.youtube.com/embed/Pe6-Vx6jDMI?si=rY4NX7j379JuJQw-",
@@ -45,19 +44,3 @@ export const youtubeVideos = [
     url: "https://www.youtube.com/embed/E7VXUAkEobI?si=AXloqADY2D2yHrp9",
   },
 ];
-
-
-export const commercialVideos = [
-  {
-    url: "https://www.youtube.com/embed/uZ6_3ZQO90M?si=H15GIpRydPBYTey9",
-  },
-  {
-    url: "https://www.youtube.com/embed/wz8MofyvZ1U?si=kwyiPKin-UE2anRR",
-  },
-  {
-    url: "https://www.youtube.com/embed/RQq4DuBBUXI?si=AdWNvSH-c2zyAS1t",
-  },
-];
-
-
-

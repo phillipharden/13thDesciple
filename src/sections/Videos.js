@@ -1,6 +1,7 @@
 import VideoCarousel from "../components/VideoCarousel";
 import "../styles/videos.css";
 import AnimatedText from "../components/AnimatedText";
+import { youtubeVideos } from "../data";
 
 const Videos = () => {
   return (
@@ -9,7 +10,7 @@ const Videos = () => {
         <div className="headline">
           <AnimatedText text="Videos" />
         </div>
-        <VideoCarousel />
+        <VideoCarousel videos={youtubeVideos} />
       </div>
     </section>
   );

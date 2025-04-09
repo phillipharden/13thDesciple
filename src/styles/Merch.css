@@ -23,7 +23,7 @@
 
 /* Container for positioning button */
 .btn-container {
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 @keyframes flash {
@@ -53,5 +53,7 @@
 
 
 .splash-img{
-  max-width: 600px;
+  width:100%;
+  max-width: 900px;
+  
 }
