@@ -17,3 +17,8 @@ footer p {
 .kmb-logo {
   max-width: 150px;
 }
+
+.kingdom-building-thumbnail{
+border-radius: 15px;
+  max-width: 150px;
+}

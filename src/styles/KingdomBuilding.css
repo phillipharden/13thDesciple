@@ -1,0 +1,20 @@
+
+
+#kingdom-building div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#kingdom-building .container{
+    padding: 50px;
+}
+
+
+#kingdom-building img{
+  width:100%;
+  max-width: 1200px;
+   border-radius: 15px;
+  
+}
