@@ -5,6 +5,7 @@ import VideoCarousel from "../components/VideoCarousel";
 import "../styles/homescreen.css";
 import About from "../sections/About";
 import Merch from "../sections/Merch";
+import Events from "../sections/Events";
 import KingdomBuilding from "../sections/KingdomBuilding";
 
 const HomeScreen = () => {
@@ -17,11 +18,12 @@ const HomeScreen = () => {
           className="hero-img fade-bottom rise-image"
         />
       </section>
-      <KingdomBuilding />
+<Events />
       <Videos />
       <Music />
       <About />
       <Merch />
+      <KingdomBuilding />
     </div>
   );
 };
