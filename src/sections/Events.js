@@ -1,6 +1,6 @@
 import AnimatedText from "../components/AnimatedText";
 import "../styles/events.css";
-import Image from "../images/June28.png";
+import Image from "../images/mvmnt.jpg";
 
 const Events = () => {
   return (
