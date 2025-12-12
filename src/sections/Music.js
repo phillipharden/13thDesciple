@@ -1,5 +1,6 @@
 import AnimatedText from "../components/AnimatedText";
 import "../styles/music.css";
+import SteppinCypher from "../images/steppin_cypher.png";
 
 const Music = () => {
   return (
@@ -8,6 +9,31 @@ const Music = () => {
         <div className="headline py-6">
           <AnimatedText text="Music" />
         </div>
+
+        <div className="latest-container">
+          <a
+            href="https://13thdesciple.bandcamp.com/track/steppin-cypher"
+            target="_blank"
+            rel="noopener noreferrer">
+            <img
+              src={SteppinCypher}
+              alt="Image of 13th Desiple standing"
+              className="about-img fade-bottom"
+            />
+          </a>
+        </div>
+
+        <div className="latest-container">
+          <a
+            className="purchase-link"
+            href="https://13thdesciple.bandcamp.com/music"
+            target="_blank"
+            rel="noopener noreferrer">
+            Purchase all music directly from 13thDesciple here!
+          </a>
+        </div>
+
+
         <div className="row py-4">
           <div className="col col-12 col-md-6 music-box">
             <iframe
