@@ -1,5 +1,5 @@
 import AnimatedText from "../components/AnimatedText";
-import Image from "../images/about-img.jpeg";
+import Image from "../images/about-img.png";
 import "../styles/about.css";
 
 const About = () => {

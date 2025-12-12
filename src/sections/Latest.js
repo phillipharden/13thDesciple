@@ -1,5 +1,5 @@
 import AnimatedText from "../components/AnimatedText";
-import Image from "../images/birthday.jpg";
+import Image from "../images/birthday.png";
 import NewYear from "../images/newyear.png";
 import "../styles/latest.css";
 
