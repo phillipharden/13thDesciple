@@ -7,6 +7,7 @@ import About from "../sections/About";
 import Latest from "../sections/Latest";
 import Merch from "../sections/Merch";
 import Events from "../sections/Events";
+import Subscribe from "../sections/Subscribe";
 import KingdomBuilding from "../sections/KingdomBuilding";
 
 const HomeScreen = () => {
@@ -25,6 +26,7 @@ const HomeScreen = () => {
       <Music />
       <About />
       <Merch />
+      {/* <Subscribe /> */}
       <KingdomBuilding />
     </div>
   );
