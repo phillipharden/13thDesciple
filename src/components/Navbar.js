@@ -41,6 +41,9 @@ const Navbar = () => {
           <li>
             <a href="#about">About</a>
           </li>
+           <li>
+            <a href="#events">Events</a>
+          </li>
           <li>
             <a
               href="https://13thdesciple.bandcamp.com/merch"
