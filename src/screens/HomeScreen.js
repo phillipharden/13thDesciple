@@ -20,7 +20,7 @@ const HomeScreen = () => {
           className="hero-img fade-bottom rise-image"
         />
       </section>
-      {/* <Latest /> */}
+      <Latest />
       <Events />
       <Videos />
       <Music />

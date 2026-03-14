@@ -2,28 +2,15 @@ import AnimatedText from "../components/AnimatedText";
 import Image from "../images/birthday.png";
 import NewYear from "../images/newyear.png";
 import "../styles/latest.css";
+import VoteSteppin from "../components/VoteSteppin";
 
 const Latest = () => {
   return (
     <section id="latest">
       <div className="container">
-        <div className="headline">
-          <AnimatedText text="Latest News" />
-        </div>
-        <div className="latest-container">
-          <img
-            src={NewYear}
-            alt="New Years Celebration"
-            className="about-img"
-          />
-        </div>
-        <div className="latest-container">
-          <img
-            src={Image}
-            alt="Image of 13th Desiple standing"
-            className="about-img"
-          />
-        </div>
+        
+
+<VoteSteppin />
 
        
       </div>

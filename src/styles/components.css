@@ -1,0 +1,71 @@
+/*^ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/*^ Vote Stepppin -=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/*^ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+.vote-steppin {
+    background: linear-gradient(135deg,
+            rgba(0, 0, 0, 0.65),
+            rgba(60, 60, 60, 0.35));
+    backdrop-filter: blur(6px);
+    padding: 60px 20px;
+    border-radius: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.vote-steppin__content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.vote-steppin__eyebrow {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #aaa;
+    margin-bottom: 8px;
+}
+
+.vote-steppin__title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.vote-steppin__text {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #ddd;
+}
+
+.vote-steppin__categories {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.vote-steppin__categories li {
+    margin: 6px 0;
+    font-weight: 600;
+}
+
+.vote-steppin__instructions {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 24px;
+}
+
+.vote-steppin__button {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #ffcc00;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.vote-steppin__button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .4);
+}
