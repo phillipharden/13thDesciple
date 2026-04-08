@@ -1,6 +1,6 @@
 const EventCard = ({ event, onImageClick }) => {
   const formattedDate = event.date
-    ? new Date(event.date).toLocaleDateString("en-US", {
+    ? new Date(event.date + "T12:00:00").toLocaleDateString("en-US", {
         year: "numeric",
         month: "long",
         day: "numeric",
@@ -28,7 +28,6 @@ const EventCard = ({ event, onImageClick }) => {
       </div>
 
       <div className="event-info">
-        {/* <h3 className="event-title">{event.title}</h3> */}
         <p className="event-date">{formattedDate}</p>
 
         {event.button_text && event.button_link && (
