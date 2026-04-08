@@ -1,6 +1,14 @@
 const EventCard = ({ event, onImageClick }) => {
+  const formattedDate = event.date
+    ? new Date(event.date).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      })
+    : "";
+
   return (
-    <div className="event-card">
+    <div className="event-card py-4">
       <div className="event-poster-wrap">
         {event.poster_url ? (
           <img
@@ -20,8 +28,8 @@ const EventCard = ({ event, onImageClick }) => {
       </div>
 
       <div className="event-info">
-        <h3 className="event-title">{event.title}</h3>
-        <p className="event-date">{event.date}</p>
+        {/* <h3 className="event-title">{event.title}</h3> */}
+        <p className="event-date">{formattedDate}</p>
 
         {event.button_text && event.button_link && (
           <a
