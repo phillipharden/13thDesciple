@@ -22,7 +22,7 @@ const events = [
     poster: Birthday
   },
   {
-    title: "New Year Event - 2026",
+    title: "New Years Event - 2026",
     date: "2025-12-31",
     poster: NewYear26
   },
